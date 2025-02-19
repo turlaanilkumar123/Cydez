@@ -1,0 +1,28 @@
+<div class="container">
+<html>
+    <div class="col-lg-12">
+        <div class="col-lg-5" style="text-align: center;">
+            <form [formGroup]="personalForm" class="property">
+                <label>Whether_Ex_Servicemen : <span style="color: red;">*</span></label> 
+                <select formControlName="servicemen" style="margin-left: 26px;">
+                    <option value="">Choose option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+        <br>
+                <label>Whether_Manual_Scavenger : <span style="color: red;">*</span></label>
+                <select formControlName="scavenger" style="margin-left: 5px;">
+                    <option value="">Choose option</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+        
+                <br>
+        
+                <button class="btn btn-primary" (click)="onSubmit(personalForm.value)" [disabled]="!personalForm.valid" >Submit</button>
+            </form>
+        
+        </div>
+</div>
+</html>
+</div>

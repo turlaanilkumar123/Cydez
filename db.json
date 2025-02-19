@@ -1,0 +1,68 @@
+{
+  "personal": [
+    {
+      "id": "bb08"
+    },
+    {
+      "id": "006b",
+      "servicemen": "Yes",
+      "scavenger": "No"
+    },
+    {
+      "id": "676d",
+      "servicemen": "Yes",
+      "scavenger": "No"
+    },
+    {
+      "id": "41da",
+      "servicemen": "Yes",
+      "scavenger": "Yes"
+    }
+  ],
+  "property": [
+    {
+      "id": "0fa0"
+    },
+    {
+      "id": "cd73",
+      "option": "Builder Form"
+    },
+    {
+      "id": "5da2",
+      "option": "Plot and Independent House"
+    },
+    {
+      "id": "45a1",
+      "apartmenttype": "Builder Form"
+    },
+    {
+      "id": "97f1",
+      "apartmenttype": "Builder Form"
+    },
+    {
+      "id": "40f6",
+      "apartmenttype": "Residential Apartment"
+    },
+    {
+      "id": "36ff",
+      "apartmenttype": "Residential Apartment"
+    }
+  ],
+  "amount": [
+    {
+      "id": "d809"
+    },
+    {
+      "id": "2175",
+      "amount": 120000000,
+      "guaranteed": 150000000,
+      "category": "Bank/Finanace Company"
+    },
+    {
+      "id": "47aa",
+      "loanAmount": "",
+      "guaranteedAmount": "",
+      "category": ""
+    }
+  ]
+}

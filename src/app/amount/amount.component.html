@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="col-lg-12">
+        <div class="col-lg-5"  style="text-align: center;">
+        <form [formGroup]="amountForm"  class="amount">
+            <label>Loan Amount<span style="color: red;">*</span>:</label>
+            <input type="number" formControlName="loanAmount" placeholder="Enter Amount">
+            <br>
+            <label style="margin-right: 10px;">Amount Guaranteed <span style="color: red;">*</span> : </label>
+            <input type="text" formControlName="guaranteedAmount" [maxlength]="amountLength" placeholder="Enter amount">
+            <br>
+            <label>Category <span style="color: red;">*</span> : </label>
+            <select formControlName="category">
+                <option value="">Choose Category</option>
+                <option>Bank/Finanace Company</option>
+                <option>Balance Transfer from Bank/FI</option>
+            </select> 
+
+            <br>
+
+            <button class="btn btn-primary" (click)="onSubmit(amountForm.value)">Submit</button>
+        </form>
+        </div>
+    </div>
+
+</div>
